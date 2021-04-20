@@ -138,22 +138,22 @@ int main (int argc, char **argv)
  cout <<"Total area covered by detectors [cm^2]: "     <<  nr*nc*(d*d) << endl;
    cout << "---------------------------------\n";
   cout <<"Center of detector in first row, first column on x [cm]: "     << xmin<< endl;
-  cout <<"Lower  range of this detector on x [cm] : "<< xmin - d<< endl;
-  cout <<"Upper  range of this detector on x [cm] : "<< xmin + d<< endl;
+  cout <<"Lower  range of this detector on x [cm] : "<< xmin - d/2.0<< endl;
+  cout <<"Upper  range of this detector on x [cm] : "<< xmin + d/2.0<< endl;
    cout << "---------------------------------\n";
   cout <<"Center of detector in first row, first column on y [cm] :  "   << ymin << endl;
-  cout <<"Lower  range of this detector on y : "<<  ymin - d<< endl;
-  cout <<"Upper  range of this detector on y : "<< ymin + d<< endl;
+  cout <<"Lower  range of this detector on y : "<<  ymin - d/2.0<< endl;
+  cout <<"Upper  range of this detector on y : "<< ymin + d/2.0<< endl;
    cout << "---------------------------------\n";
 
 
   cout <<"Center of detector in last row, last column on x [cm]: "<< xmax<< endl;
-  cout <<"Lower  range of this detectors on x [cm]: "<< xmax - d<< endl;
-  cout <<"Upper  range of this detectors on x [cm]: "<< xmax + d<< endl;
+  cout <<"Lower  range of this detectors on x [cm]: "<< xmax - d/2.0<< endl;
+  cout <<"Upper  range of this detectors on x [cm]: "<< xmax + d/2.0<< endl;
    cout << "---------------------------------\n";
   cout <<"Center detector in last row, last column on y [cm]: "<< ymax << endl;
-  cout <<"Lower  range of this detectors on y [cm]: "<<  ymax - d<< endl;
-  cout <<"Upper  range of this detectors on y [cm]: "<< ymax + d<< endl;
+  cout <<"Lower  range of this detectors on y [cm]: "<<  ymax - d/2.0<< endl;
+  cout <<"Upper  range of this detectors on y [cm]: "<< ymax + d/2.0<< endl;
    cout << "---------------------------------\n";
 
   vector<Detector> vecDetectors;
